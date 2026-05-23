@@ -1,0 +1,6 @@
+read_verilog rtl/counter_7seg.v
+hierarchy -top counter_7seg
+proc; fsm; opt;
+techmap; opt;
+write_verilog output/counter_netlist.v
+stat
